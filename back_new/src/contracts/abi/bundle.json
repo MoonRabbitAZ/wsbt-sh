@@ -1,0 +1,606 @@
+[
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "registrationStatus",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_prices",
+        "type": "uint256[14]"
+      }
+    ],
+    "name": "createBundle",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "rebaseSessionId",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "rebaseCaller",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "withdraw",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_username",
+        "type": "string"
+      }
+    ],
+    "name": "Register",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "createRebaseSession",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "lastRebaseSessionCreated",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "bundleStakeDuration_",
+        "type": "uint256"
+      },
+      {
+        "name": "bundleDuration_",
+        "type": "uint256"
+      }
+    ],
+    "name": "setBundleDuratuionAndStakePeriod",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "rebaseTracer",
+    "outputs": [
+      {
+        "name": "NumberOfOccurances",
+        "type": "uint256"
+      },
+      {
+        "name": "numberOfNegativeDates",
+        "type": "uint256"
+      },
+      {
+        "name": "createdTime",
+        "type": "uint256"
+      },
+      {
+        "name": "endingTime",
+        "type": "uint256"
+      },
+      {
+        "name": "user_counter",
+        "type": "uint256"
+      },
+      {
+        "name": "winner",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "setRebaseStatus",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "index",
+        "type": "uint256"
+      },
+      {
+        "name": "_prices",
+        "type": "uint256"
+      },
+      {
+        "name": "_percent",
+        "type": "uint256"
+      },
+      {
+        "name": "_bundleId",
+        "type": "uint256"
+      },
+      {
+        "name": "_amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "placePrediction",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "new_owner",
+        "type": "address"
+      }
+    ],
+    "name": "updateowner",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "owner",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "isOwner",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "rebasePoolId_",
+        "type": "uint256"
+      }
+    ],
+    "name": "participateForMegaPool",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "drain",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      },
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_user",
+        "type": "address"
+      },
+      {
+        "name": "_bundleId",
+        "type": "uint256"
+      },
+      {
+        "name": "_reward",
+        "type": "uint256"
+      },
+      {
+        "name": "_isPositive",
+        "type": "bool"
+      }
+    ],
+    "name": "updatebal",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "bundleId",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "lastTotalSupply",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "rebasePoolId_",
+        "type": "uint256"
+      }
+    ],
+    "name": "guessWinnerFromMegaPool",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_user",
+        "type": "address"
+      },
+      {
+        "name": "_bundleId",
+        "type": "uint256"
+      }
+    ],
+    "name": "fetchUserPredictions",
+    "outputs": [
+      {
+        "name": "_bundles",
+        "type": "uint256[14]"
+      },
+      {
+        "name": "_prices",
+        "type": "uint256[14]"
+      },
+      {
+        "name": "_amounts",
+        "type": "uint256[14]"
+      },
+      {
+        "name": "balance",
+        "type": "uint256"
+      },
+      {
+        "name": "totalPredicted",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "megaPool",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_user",
+        "type": "address"
+      }
+    ],
+    "name": "fetchUser",
+    "outputs": [
+      {
+        "name": "_bundles",
+        "type": "uint256[]"
+      },
+      {
+        "name": "username",
+        "type": "string"
+      },
+      {
+        "name": "claimable",
+        "type": "uint256"
+      },
+      {
+        "name": "staked_balance",
+        "type": "uint256"
+      },
+      {
+        "name": "active",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "lastcreated",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_poolId",
+        "type": "uint256"
+      },
+      {
+        "name": "_performance_reward",
+        "type": "uint256"
+      },
+      {
+        "name": "_performance_flag",
+        "type": "bool"
+      }
+    ],
+    "name": "rebaseReward",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_timestamp",
+        "type": "uint256"
+      }
+    ],
+    "name": "updatetime",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_bundleId",
+        "type": "uint256"
+      }
+    ],
+    "name": "fetchBundle",
+    "outputs": [
+      {
+        "name": "_prices",
+        "type": "uint256[14]"
+      },
+      {
+        "name": "_start",
+        "type": "uint256"
+      },
+      {
+        "name": "_end",
+        "type": "uint256"
+      },
+      {
+        "name": "_staking_ends",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "bundle_address",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "_bundle_address",
+        "type": "address"
+      },
+      {
+        "name": "_mega_pool",
+        "type": "address"
+      },
+      {
+        "name": "_rebase_caller",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "LastSessionData",
+    "type": "event"
+  }
+]

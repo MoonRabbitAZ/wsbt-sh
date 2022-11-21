@@ -1,0 +1,22 @@
+import Axios from 'axios'
+
+export const API = 'API'
+export const API_START = 'API_START'
+export const API_END = 'API_END'
+export const ACCESS_DENIED = 'ACCESS_DENIED'
+export const API_ERROR = 'API_ERROR'
+export const API_SUCCESS = 'API_SUCCESS'
+export const APP_DATA = 'APP_DATA'
+export const LOGOUT = 'LOGOUT'
+export const ACTION_TYPE = 'ACTION_TYPE'
+export const LOG_IN = 'LOG_IN'
+export const BUNDLE_LIST = 'BUNDLE_LIST'
+export const ADD_NFT_USER = 'ADD_NFT_USER'
+export const PLACE_BET = 'PLACE_BET'
+export const LEADERBOARD = 'LEADERBOARD'
+export const CURRENT_POOL_DETAILS = 'CURRENT_POOL_DETAILS'
+export const COMPLETED_POOL_DETAILS = 'COMPLETED_POOL_DETAILS'
+export const HALL_OF_FAME = 'HALL_OF_FAME'
+export const CHECK_USER_STATUS = 'CHECK_USER_STATUS'
+
+
